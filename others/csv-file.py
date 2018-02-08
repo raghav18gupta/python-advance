@@ -3,7 +3,7 @@ CSV = 'comma seprate variable'
 with open('filename', 'mode') as f:
     aabrakadabra
 # this is done to ensure close of file, even exception caught!
-# csv.Dictwriter() and csv.Dictreader()
+# csv.Dictwriter() and csv.Dictreader() can also be used
 '''
 
 import csv
