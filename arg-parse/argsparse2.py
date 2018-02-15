@@ -1,5 +1,6 @@
 import argparse
 
+
 def fib(n):
     a, b = 0, 1
     for i in range(n):
@@ -15,11 +16,12 @@ def Main():
     args = parser.parse_args()
 
     result = fib(args.num)
-    print("The " + str(args.num)+ "th fib number is " + str(result))
+    print("The " + str(args.num) + "th fib number is " + str(result))
 
     if args.output:
-        f = open("fibonacci.txt","a")
+        f = open("fibonacci.txt", "a")
         f.write(str(result) + '\n')
+
 
 if __name__ == '__main__':
     Main()

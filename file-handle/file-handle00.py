@@ -6,10 +6,10 @@ with open('files/txt-file00.txt', 'w') as f:
 with open('files/txtfile0.txt', 'r') as rf:
     with open('files/txtfile-copy.txt', 'w') as wf:
 
-        for line in rf: #copying line by line
+        for line in rf:  # copying line by line
             wf.write(line)
 
-#Don't do this, file will be damaged!
+# Don't do this, file will be damaged!
 '''with open('files/python_file3.png', 'r') as rf:
     with open('files/python_file-copy.png', 'w') as wf:
 
@@ -17,11 +17,11 @@ with open('files/txtfile0.txt', 'r') as rf:
             wf.write(line)
 '''
 
-#Open in binary mode
+# Open in binary mode
 with open('files/python_file3.png', 'rb') as rf:
     with open('files/python_file-copy.png', 'wb') as wf:
 
-        for line in rf: #copying line by line
+        for line in rf:  # copying line by line
             wf.write(line)
 
 with open('files/python_file3.png', 'rb') as rf:

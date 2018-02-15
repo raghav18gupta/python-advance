@@ -2,13 +2,13 @@ import socket
 
 
 def Main():
-    host = '127.0.0.1'  #loopback address
+    host = '127.0.0.1'  # loopback address
     port = 5001
 
-    s = socket.socket()     #TCP socket object
+    s = socket.socket()  # TCP socket object
     s.bind((host, port))
 
-    s.listen(1)     #one connection at a time
+    s.listen(1)  # one connection at a time
     c, addr = s.accept()
     print(str(addr) + " conneted ")
     while True:
@@ -22,15 +22,11 @@ def Main():
     c.close()
     print(str(addr) + ' connection closed')
 
+
 Main()
 #
 # if __name__ = '__main__':
 #     Main()
-
-
-
-
-
 
 
 '''

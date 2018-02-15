@@ -1,6 +1,7 @@
 import threading
 import time
 
+
 class Async(threading.Thread):
     def __init__(self, text, out):
         threading.Thread.__init__(self)
@@ -14,6 +15,7 @@ class Async(threading.Thread):
         time.sleep(2)
         print('Finished writing ' + self.out)
 
+
 def Main():
     message = input('Enter a string to save')
     background = Async(message, 'out.txt')
@@ -24,6 +26,7 @@ def Main():
 
     background.join()
     print('waited for join ')
+
 
 if __name__ == '__main__':
     Main()

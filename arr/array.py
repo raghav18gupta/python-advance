@@ -1,7 +1,7 @@
 from array import array
 
 # array(data type, value list)
-a = array('i',[2,3,4,5,5,5,6,1])
+a = array('i', [2, 3, 4, 5, 5, 5, 6, 1])
 
 print(a)
 for i in a:
@@ -9,7 +9,7 @@ for i in a:
 
 a.append(1211)
 print(a)
-a.insert(23423,2)   #index
+a.insert(23423, 2)  # index
 print(a)
 
 try:
@@ -17,7 +17,7 @@ try:
 except:
     pass
 
-print(a)    #no change
+print(a)  # no change
 
 '''index() , remove() can be applied, as in list'''
 '''

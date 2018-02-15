@@ -1,5 +1,6 @@
 import socket
 
+
 def Main():
     host = '127.0.0.1'
     port = 5001
@@ -15,13 +16,8 @@ def Main():
         message = input('->  ')
     s.close()
 
+
 Main()
-
-
-
-
-
-
 
 
 '''

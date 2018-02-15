@@ -5,10 +5,14 @@
 # print(True if __name__  == "__main__" else False) #True
 # print(assss.__name__)   #firstmodule
 
-s=10
+s = 10
+
+
 def f():
     global s
     print(s)
-    s="inside"
+    s = "inside"
     print(s)
+
+
 f()

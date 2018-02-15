@@ -53,19 +53,18 @@ print(split('\d+', 'On 12th Jan 2016, at 11:02 AM'))
 # ['On ', 'th Jan ', ', at ', ':', ' AM']
 
 
-
 from re import sub
 # re.sub(pattern, repl, string, count=0, flags=0)
 # sub searches substring 'pattern' in string and replace with 'repl'. count checks and maintains the number of times this occurs1
-print(re.sub('ub', '~*' , 'Subject has Uber booked already', flags = re.IGNORECASE))
-print(re.sub('ub', '~*' , 'Subject has Uber booked already',count = 1 , flags = re.IGNORECASE))
+print(re.sub('ub', '~*', 'Subject has Uber booked already', flags=re.IGNORECASE))
+print(re.sub('ub', '~*', 'Subject has Uber booked already', count=1, flags=re.IGNORECASE))
 # S~*ject has ~*er booked already
 # S~*ject has Uber booked already
 
 from re import subn
 # subn() is similar to sub() in all ways, except in its way to providing output. It returns a tuple with count of total of replacement and the new string rather than just the string.
-print(re.subn('ub', '~*' , 'Subject has Uber booked already'))
-print(re.subn('ub', '~*' , 'Subject has Uber booked already', flags = re.IGNORECASE))
+print(re.subn('ub', '~*', 'Subject has Uber booked already'))
+print(re.subn('ub', '~*', 'Subject has Uber booked already', flags=re.IGNORECASE))
 # ('S~*ject has Uber booked already', 1)
 # ('S~*ject has ~*er booked already', 2)
 
@@ -78,7 +77,7 @@ if obj is not None:
 
 # email address regex
 mail = r"[a-z0-9\.\-+_\\]+@[a-z0-9\.\-+_]+\.[a-z]+"
-text ='''
+text = '''
 Real, you say. I'll list a few fictional ones as an introduction to my post - all taken from animated TV shows:
 1 Chun+-kyLover53@aol.com (Homer Simpson - The Simpsons)
 2 smartgirl63_\@Yahoo.com (Lisa Simpson - The Simpsons)
@@ -89,7 +88,7 @@ Real, you say. I'll list a few fictional ones as an introduction to my post - al
 (wow, Lisa has a backslash in her email address!)
 sorce: https://www.quora.com/What-are-the-most-famous-real-email-addresses
 '''
-print(re.findall(mail, text,re.I))
+print(re.findall(mail, text, re.I))
 # ['Chun+-kyLover53@aol.com', 'smartgirl63_\\@Yahoo.com', 'awo_ng@marslink.web', 'Zoidberg@freemail.web', 'Bender@Ilovebender.com', 'loismustdie@yahoo.com']
 
 '''

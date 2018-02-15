@@ -1,5 +1,6 @@
 import socket
 
+
 def Main():
     host = '127.0.0.1'
     port = 7468
@@ -16,5 +17,6 @@ def Main():
         print('recived from server', data)
         message = input('-> ')
     s.close()
+
 
 Main()

@@ -20,10 +20,10 @@ for article in soup.find_all('article'):
     try:
         headline = article.header.h2.a.text
 
-        summary = article.div.p.text    #my way
+        summary = article.div.p.text  # my way
         # summary = article.find('div', class_='entry-content').p.text
 
-        link = article.iframe['src']    #my way
+        link = article.iframe['src']  # my way
         # link = article.find('iframe', class_='youtube-player')['src']
         # print(link, end='\n')
 
