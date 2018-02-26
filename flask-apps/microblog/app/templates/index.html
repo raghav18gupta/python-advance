@@ -1,0 +1,17 @@
+<html>
+    <head>
+        {% if title %}
+          <title>{{ title }}</title>
+        {% else %}
+          <title>title = None</title>
+        {% endif %}
+    </head>
+    <body>
+        <h1>Hello, {{ user.name }}!</h1>
+
+        {% for i in range(10) %}
+          {{ i }}
+        {% endfor %}
+
+    </body>
+</html>
