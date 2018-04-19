@@ -14,3 +14,10 @@ prime = [x for x in range(2, 50) if x not in nonprime]
 #a efficient way
 prime = [x for x in range(2, 50) if all(x % y != 0 for y in range(2, int(x**0.5 + 1)))]
 print(prime)
+
+# For Convert list of list into single list:
+li = [[1, 2], [3, 4], [5, 6]]
+r = []
+[r.extend(i) for i in li]
+print(r)	# [1, 2, 3, 4, 5, 6]
+
