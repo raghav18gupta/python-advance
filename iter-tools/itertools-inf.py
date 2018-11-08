@@ -12,7 +12,7 @@ b = it.cycle([1,2,3,4])  # prints -- 1,2,3,4,1,2,3,4,1...infinitely
 
 # repeat(val, num)
 # This iterator repeatedly prints the passed value infinite number of times. If num. is mentioned, them till that number.
-c = it.repeat(6,4)  # prints [25, 25, 25, 25]
+c = it.repeat(6,4)  # prints [6, 6, 6, 6]
 d = it.repeat(2)
 
 
