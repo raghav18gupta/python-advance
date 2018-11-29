@@ -74,7 +74,7 @@ for match in matches:
 ```
 here:
 
-`group()` is whole string.
+`group()`  is whole string.
 
 `group(0)` prints first group (here, whole string).
 
