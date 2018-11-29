@@ -25,3 +25,7 @@ def Main():
 
 if __name__ == '__main__':
     Main()
+
+
+# 1. -h is already inbuild optional argument
+2.
