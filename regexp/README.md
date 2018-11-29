@@ -74,7 +74,9 @@ for match in matches:
 ```
 here:
 
-`group(0)` is whole string.
+`group()` is whole string.
+
+`group(0)` prints first group (here, whole string).
 
 `group(1)` is `www.` or `None`.
 
