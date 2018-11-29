@@ -40,16 +40,20 @@ p = re.compile("ab*")
 print(p.findall("abab bab abasa basbb abbab abba"))
 # ['ab', 'ab', 'ab', 'ab', 'a', 'a', 'a', 'abb', 'ab', 'abb', 'a']
 
+
+
+
 from re import split     # re.split(pattern, string, maxsplit=0, flags=0)
 # maxsplit: if any nonzero value is provided, then at most that many splits occurs.
 # flags = re.IGNORECASE (example)
-print(split('\W+', 'Words, words , Words'))
-print(split('\W+', "Word's words Words"))
-print(split('\W+', 'On 12th Jan 2016, at 11:02 AM'))
-print(split('\d+', 'On 12th Jan 2016, at 11:02 AM'))
+
+print(split(r'\W+', 'Words, words , Words'))
 # ['Words', 'words', 'Words']
+print(split(r'\W+', "Word's     words Words"))
 # ['Word', 's', 'words', 'Words']
+print(split(r'\W+', 'On 12th Jan 2016, at 11:02 AM'))
 # ['On', '12th', 'Jan', '2016', 'at', '11', '02', 'AM']
+print(split(r'\d+', 'On 12th Jan 2016, at 11:02 AM'))
 # ['On ', 'th Jan ', ', at ', ':', ' AM']
 
 
@@ -71,9 +75,9 @@ print(re.subn('ub', '~*', 'Subject has Uber booked already', flags=re.IGNORECASE
 from re import search
 obj = search("([a-zA-Z]+) (\d+)", "I was born on June 24")
 if obj is not None:
-    print obj  # <_sre.SRE_Match object; span=(14, 21), match='June 24'>
-    print obj.group()  # June 24
-    print obj.group(1), obj.group(2)   # June 24
+    print (obj)  # <_sre.SRE_Match object; span=(14, 21), match='June 24'>
+    print (obj.group())  # June 24
+    print (obj.group(1), obj.group(2))   # June 24
 
 # email address regex
 mail = r"[a-z0-9\.\-+_\\]+@[a-z0-9\.\-+_]+\.[a-z]+"
