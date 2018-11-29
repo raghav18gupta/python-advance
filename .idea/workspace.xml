@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4c05ddda-6b75-4b69-84c7-48cba7ee92e0" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/py-advance.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/py-advance.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/arr/array.py" beforeDir="false" afterPath="$PROJECT_DIR$/arr/array1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/regexp/regexx.py" beforeDir="false" afterPath="$PROJECT_DIR$/regexp/regexx.py" afterDir="false" />
-    </list>
+    <list default="true" id="4c05ddda-6b75-4b69-84c7-48cba7ee92e0" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,11 +11,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="regexx.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/regexp/regexx.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-472">
-              <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/regexp/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="2220">
+                <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -51,6 +47,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/arr/array3.py" />
         <option value="$PROJECT_DIR$/regexp/regexx.py" />
+        <option value="$PROJECT_DIR$/regexp/README.md" />
       </list>
     </option>
   </component>
@@ -102,7 +99,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.array3">
+  <component name="RunManager" selected="Bash.shortcut.sh">
+    <configuration name="shortcut.sh" type="BashConfigurationType" factoryName="Bash" temporary="true">
+      <module name="py-advance" />
+      <option name="INTERPRETER_OPTIONS" value="bash" />
+      <option name="INTERPRETER_PATH" value="/usr/bin/env" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/shortcut.sh" />
+      <option name="PARAMETERS" value="" />
+    </configuration>
     <configuration name="array2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="py-advance" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -142,9 +148,11 @@
     <list>
       <item itemvalue="Python.array2" />
       <item itemvalue="Python.array3" />
+      <item itemvalue="Bash.shortcut.sh" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Bash.shortcut.sh" />
         <item itemvalue="Python.array3" />
         <item itemvalue="Python.array2" />
       </list>
@@ -165,7 +173,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="692" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24963397" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -283,8 +290,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/regexp/regexx.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-472">
+        <state relative-caret-position="1088">
           <caret line="79" column="38" selection-start-line="79" selection-start-column="38" selection-end-line="79" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regexp/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="2220">
+            <caret line="111" lean-forward="true" selection-start-line="111" selection-end-line="111" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
